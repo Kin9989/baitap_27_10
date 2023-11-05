@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing App</title>
+</head>
+
+<body>
+    <h1>Original Image</h1>
+    <img src="{{ url_for('static', filename='images/image.jpg') }}" alt="Original Image">
+
+    <h1>Inverse Transformation</h1>
+    <img src="{{ url_for('static', filename='images/inverse_image.jpg') }}" alt="Inverse Transformation">
+
+    <h1>Gamma-Corrected Image</h1>
+    <img src="{{ url_for('static', filename='images/gamma_corrected_image.jpg') }}" alt="Gamma-Corrected Image">
+
+    <h1>Log Transformed Image</h1>
+    <img src="{{ url_for('static', filename='images/log_transformed_image.jpg') }}" alt="Log Transformed Image">
+
+    <h1>Histogram Equalized Image</h1>
+    <img src="{{ url_for('static', filename='images/histogram_equalized_image.jpg') }}" alt="Histogram Equalized Image">
+
+    <h1>Contrast Stretched Image</h1>
+    <img src="{{ url_for('static', filename='images/contrast_stretched_image.jpg') }}" alt="Contrast Stretched Image">
+
+    <h1>FFT Image</h1>
+    <img src="{{ url_for('static', filename='images/fft_image.jpg') }}" alt="FFT Image">
+
+    <h1>Converted FFT Image</h1>
+    <img src="{{ url_for('static', filename='images/converted_fft_image.jpg') }}" alt="Converted FFT Image">
+
+    <h1>Processed Image</h1>
+    <img src="{{ url_for('static', filename='images/processed_image.jpg') }}" alt="Processed Image">
+
+</body>
+
+</html>
